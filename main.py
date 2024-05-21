@@ -1,8 +1,8 @@
-from controllers import Controller
-import views
+from controllers.userController import UserController
+import views.display as views
 
 def main():
-    controller = Controller()
+    controller = UserController()
 
     # Solicitar información del supervisor al inicio del programa
     print("Ingrese la información del supervisor de planta:")
